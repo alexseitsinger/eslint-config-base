@@ -4,6 +4,9 @@ module.exports = {
      * Enforce “for” loop update clause moving the counter in the right direction.
      *
      * https://eslint.org/docs/rules/for-direction
+     *
+     * @example
+     * "error"
      */
     "for-direction": "error",
 
@@ -11,15 +14,23 @@ module.exports = {
      * Enforce return statements in getters.
      *
      * https://eslint.org/docs/rules/getter-return
+     *
+     * @example
+     * ["error", {
+     *  allowImplicit: true,
+     * }]
      */
     "getter-return": ["error", {
-      "allowImplicit": true,
+      allowImplicit: true,
     }],
 
     /**
      * Disallow using an async function as a Promise executor.
      *
      * https://eslint.org/docs/rules/no-async-promise-executor
+     *
+     * @example
+     * "error"
      */
     "no-async-promise-executor": "error",
 
@@ -27,6 +38,9 @@ module.exports = {
      * Disallow await inside of loops.
      *
      * https://eslint.org/docs/rules/no-await-in-loop
+     *
+     * @example
+     * "error"
      */
     "no-await-in-loop": "error",
 
@@ -34,6 +48,9 @@ module.exports = {
      * Disallow comparing against -0.
      *
      * https://eslint.org/docs/rules/no-compare-neg-zero
+     *
+     * @example
+     * "error"
      */
     "no-compare-neg-zero": "error",
 
@@ -41,6 +58,9 @@ module.exports = {
      * Disallow assignment operators in conditional expressions.
      *
      * https://eslint.org/docs/rules/no-cond-assign
+     *
+     * @example
+     * "error"
      */
     "no-cond-assign": "error",
 
@@ -51,6 +71,9 @@ module.exports = {
      * - We use console statements a lot, so disable this rule.
      *
      * https://eslint.org/docs/rules/no-console
+     *
+     * @example
+     * "off"
      */
     "no-console": "off",
 
@@ -58,15 +81,23 @@ module.exports = {
      * Disallow constant expressions in conditions.
      *
      * https://eslint.org/docs/rules/no-constant-condition
+     *
+     * @example
+     * ["error", {
+     *  checkLoops: true,
+     * }]
      */
     "no-constant-condition": ["error", {
-      "checkLoops": true,
+      checkLoops: true,
     }],
 
     /**
      * Disallow control characters in regular expressions.
      *
      * https://eslint.org/docs/rules/no-control-regex
+     *
+     * @example
+     * "error"
      */
     "no-control-regex": "error",
 
@@ -74,6 +105,9 @@ module.exports = {
      * Disallow the use of debugger.
      *
      * https://eslint.org/docs/rules/no-debugger
+     *
+     * @example
+     * "error"
      */
     "no-debugger": "error",
 
@@ -81,6 +115,9 @@ module.exports = {
      * Disallow duplicate arguments in function definitions.
      *
      * https://eslint.org/docs/rules/no-dupe-args
+     *
+     * @example
+     * "error"
      */
     "no-dupe-args": "error",
 
@@ -88,6 +125,9 @@ module.exports = {
      * Disallow duplicate keys in object literals.
      *
      * https://eslint.org/docs/rules/no-dupe-keys
+     *
+     * @example
+     * "error"
      */
     "no-dupe-keys": "error",
 
@@ -95,6 +135,9 @@ module.exports = {
      * Disallow duplicate case labels.
      *
      * https://eslint.org/docs/rules/no-duplicate-case
+     *
+     * @example
+     * "error"
      */
     "no-duplicate-case": "error",
 
@@ -102,15 +145,23 @@ module.exports = {
      * Disallow empty block statements.
      *
      * https://eslint.org/docs/rules/no-empty
+     *
+     * @example
+     * ["error", {
+     *  allowEmptyCatch: false,
+     * }]
      */
     "no-empty": ["error", {
-      "allowEmptyCatch": false,
+      allowEmptyCatch: false,
     }],
 
     /**
      * Disallow empty character classes in regular expressions.
      *
      * https://eslint.org/docs/rules/no-empty-character-class
+     *
+     * @example
+     * "error"
      */
     "no-empty-character-class": "error",
 
@@ -118,6 +169,9 @@ module.exports = {
      * Disallow reassigning exceptions in catch clauses.
      *
      * https://eslint.org/docs/rules/no-ex-assign
+     *
+     * @example
+     * "error"
      */
     "no-ex-assign": "error",
 
@@ -127,6 +181,9 @@ module.exports = {
      * (fixable)
      *
      * https://eslint.org/docs/rules/no-extra-boolean-cast
+     *
+     * @example
+     * "error"
      */
     "no-extra-boolean-cast": "error",
 
@@ -140,13 +197,22 @@ module.exports = {
      *   read, we should disable this rule.
      *
      * https://eslint.org/docs/rules/no-extra-parens
+     *
+     * @example
+     * ["off", "all", {
+     *  conditionalAssign: true,
+     *  returnAssign: false,
+     *  nestedBinaryExpressions: false,
+     *  ignoreJSX: "all",
+     *  enforceForArrowConditionals: false,
+     * }]
      */
     "no-extra-parens": ["off", "all", {
-      "conditionalAssign": true,
-      "returnAssign": false,
-      "nestedBinaryExpressions": false,
-      "ignoreJSX": "all",
-      "enforceForArrowConditionals": false,
+      conditionalAssign: true,
+      returnAssign: false,
+      nestedBinaryExpressions: false,
+      ignoreJSX: "all",
+      enforceForArrowConditionals: false,
     }],
 
     /**
@@ -155,6 +221,9 @@ module.exports = {
      * (fixable)
      *
      * https://eslint.org/docs/rules/no-extra-semi
+     *
+     * @example
+     * "error"
      */
     "no-extra-semi": "error",
 
@@ -162,6 +231,9 @@ module.exports = {
      * Disallow reassigning function declarations.
      *
      * https://eslint.org/docs/rules/no-func-assign
+     *
+     * @example
+     * "error"
      */
     "no-func-assign": "error",
 
@@ -169,6 +241,9 @@ module.exports = {
      * Disallow variable or function declarations in nested blocks.
      *
      * https://eslint.org/docs/rules/no-inner-declarations
+     *
+     * @example
+     * ["error", "both"]
      */
     "no-inner-declarations": ["error", "both"],
 
@@ -176,27 +251,43 @@ module.exports = {
      * Disallow invalid regular expression strings in RegExp constructors.
      *
      * https://eslint.org/docs/rules/no-invalid-regexp
+     *
+     * @example
+     * ["error", {
+     *  allowConstructorFlags: ["u", "y"],
+     * }]
      */
     "no-invalid-regexp": ["error", {
-      "allowConstructorFlags": ["u", "y"],
+      allowConstructorFlags: ["u", "y"],
     }],
 
     /**
      * Disallow irregular whitespace.
      *
      * https://eslint.org/docs/rules/no-irregular-whitespace
+     *
+     * @example
+     * ["error", {
+     *  skipStrings: false,
+     *  skipComments: false,
+     *  skipRegExps: false,
+     *  skipTemplates: false,
+     * }]
      */
     "no-irregular-whitespace": ["error", {
-      "skipStrings": false,
-      "skipComments": false,
-      "skipRegExps": false,
-      "skipTemplates": false,
+      skipStrings: false,
+      skipComments: false,
+      skipRegExps: false,
+      skipTemplates: false,
     }],
 
     /**
      * Disallow characters which are made with multiple code points in character class syntax.
      *
      * https://eslint.org/docs/rules/no-misleading-character-class
+     *
+     * @example
+     * "error"
      */
     "no-misleading-character-class": "error",
 
@@ -204,6 +295,9 @@ module.exports = {
      * Disallow calling global object properties as functions.
      *
      * https://eslint.org/docs/rules/no-obj-calls
+     *
+     * @example
+     * "error"
      */
     "no-obj-calls": "error",
 
@@ -211,6 +305,9 @@ module.exports = {
      * Disallow calling some Object.prototype methods directly on objects.
      *
      * https://eslint.org/docs/rules/no-prototype-builtins
+     *
+     * @example
+     * "error"
      */
     "no-prototype-builtins": "error",
 
@@ -220,6 +317,9 @@ module.exports = {
      * (fixable)
      *
      * https://eslint.org/docs/rules/no-regex-spaces
+     *
+     * @example
+     * "error"
      */
     "no-regex-spaces": "error",
 
@@ -227,6 +327,9 @@ module.exports = {
      * Disallow sparse arrays.
      *
      * https://eslint.org/docs/rules/no-sparse-arrays
+     *
+     * @example
+     * "error"
      */
     "no-sparse-arrays": "error",
 
@@ -234,6 +337,9 @@ module.exports = {
      * Disallow template literal placeholder syntax in regular strings.
      *
      * https://eslint.org/docs/rules/no-template-curly-in-string
+     *
+     * @example
+     * "error"
      */
     "no-template-curly-in-string": "error",
 
@@ -241,6 +347,9 @@ module.exports = {
      * Disallow confusing multiline expressions.
      *
      * https://eslint.org/docs/rules/no-unexpected-multiline
+     *
+     * @example
+     * "error"
      */
     "no-unexpected-multiline": "error",
 
@@ -248,6 +357,9 @@ module.exports = {
      * Disallow unreachable code after return, throw, continue, and break statements.
      *
      * https://eslint.org/docs/rules/no-unreachable
+     *
+     * @example
+     * "error"
      */
     "no-unreachable": "error",
 
@@ -255,6 +367,9 @@ module.exports = {
      * Disallow control flow statements in finally blocks.
      *
      * https://eslint.org/docs/rules/no-unsafe-finally
+     *
+     * @example
+     * "error"
      */
     "no-unsafe-finally": "error",
 
@@ -264,6 +379,9 @@ module.exports = {
      * (fixable)
      *
      * https://eslint.org/docs/rules/no-unsafe-negation
+     *
+     * @example
+     * "error"
      */
     "no-unsafe-negation": "error",
 
@@ -271,6 +389,9 @@ module.exports = {
      * Disallow assignments that can lead to race conditions due to usage of await or yield.
      *
      * https://eslint.org/docs/rules/require-atomic-updates
+     *
+     * @example
+     * "error"
      */
     "require-atomic-updates": "error",
 
@@ -278,6 +399,9 @@ module.exports = {
      * Require calls to isNaN() when checking for NaN.
      *
      * https://eslint.org/docs/rules/use-isnan
+     *
+     * @example
+     * "error"
      */
     "use-isnan": "error",
 
@@ -285,9 +409,14 @@ module.exports = {
      * Enforce comparing typeof expressions against valid strings.
      *
      * https://eslint.org/docs/rules/valid-typeof
+     *
+     * @example
+     * ["error", {
+     *  requireStringLiterals: true,
+     * }]
      */
     "valid-typeof": ["error", {
-      "requireStringLiterals": true,
+      requireStringLiterals: true,
     }],
   }
 }

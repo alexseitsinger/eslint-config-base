@@ -9,9 +9,14 @@ module.exports = {
      * - We sometimes declare varialbes with values, so disable this rule.
      *
      * https://eslint.org/docs/rules/init-declarations
+     *
+     * @example
+     * ["off", "never", {
+     *  ignoreForLoopInit: true,
+     * }]
      */
     "init-declarations": ["off", "never", {
-      "ignoreForLoopInit": true,
+      ignoreForLoopInit: true,
     }],
 
     /**
@@ -22,6 +27,9 @@ module.exports = {
      *   So, disable this rule.
      *
      * https://eslint.org/docs/rules/no-delete-var
+     *
+     * @example
+     * "off"
      */
     "no-delete-var": "off",
 
@@ -29,6 +37,9 @@ module.exports = {
      * Disallow labels that share a name with a variable.
      *
      * https://eslint.org/docs/rules/no-label-var
+     *
+     * @example
+     * "error"
      */
     "no-label-var": "error",
 
@@ -39,6 +50,9 @@ module.exports = {
      * - We added variables based on AirBNB's eslint config.
      *
      * https://eslint.org/docs/rules/no-restricted-globals
+     *
+     * @example
+     * ["error", "isFinite", "isNan"].concat(confusingBrowserGlobals)
      */
     "no-restricted-globals": ["error", "isFinite", "isNaN"].concat(confusingBrowserGlobals),
 
@@ -47,17 +61,41 @@ module.exports = {
      * outer scope.
      *
      * https://eslint.org/docs/rules/no-shadow
+     *
+     * @example
+     * ["error", {
+     *  builtinGlobals: true,
+     *  hoist: "functions",
+     *  allow: [
+     *    "data",
+     *    "error",
+     *    "resolve",
+     *    "reject",
+     *    "callback",
+     *    "errback",
+     *  ],
+     * }]
      */
     "no-shadow": ["error", {
-      "builtinGlobals": true,
-      "hoist": "all",
-      "allow": [],
+      builtinGlobals: true,
+      hoist: "functions",
+      allow: [
+        "data",
+        "error",
+        "resolve",
+        "reject",
+        "callback",
+        "errback",
+      ],
     }],
 
     /**
      * Disallow identifiers from shadowing restricted names.
      *
-     * https://eslint.org/docs/rules/no-shadow-restricted-names<Paste>
+     * https://eslint.org/docs/rules/no-shadow-restricted-names
+     *
+     * @example
+     * "error"
      */
     "no-shadow-restricted-names": "error",
 
@@ -65,15 +103,23 @@ module.exports = {
      * Disallow the use of undeclared variables unless mentioned in global comments.
      *
      * https://eslint.org/docs/rules/no-undef
+     *
+     * @example
+     * ["error", {
+     *  typeof: true,
+     * }]
      */
     "no-undef": ["error", {
-      "typeof": true,
+      typeof: true,
     }],
 
     /**
      * Disallow initializing variables to undefined.
      *
      * https://eslint.org/docs/rules/no-undef-init
+     *
+     * @example
+     * "error"
      */
     "no-undef-init": "error",
 
@@ -81,6 +127,9 @@ module.exports = {
      * Disallow the use of undefined as an identifier.
      *
      * https://eslint.org/docs/rules/no-undefined
+     *
+     * @example
+     * "error"
      */
     "no-undefined": "error",
 
@@ -94,6 +143,14 @@ module.exports = {
      * - We should check all variable, even global ones.
      *
      * https://eslint.org/docs/rules/no-unused-vars
+     *
+     * @example
+     * ["error", {
+     *  vars: "all",
+     *  args: "after-used",
+     *  ignoreRestSiblings: true,
+     *  caughtErrors: "none",
+     * }]
      */
     "no-unused-vars": ["error", {
       vars: "all",
@@ -114,11 +171,18 @@ module.exports = {
      *   function definitions in another rule.)
      *
      * https://eslint.org/docs/rules/no-use-before-define
+     *
+     * @example
+     * ["error", {
+     *  functions: false,
+     *  classes: true,
+     *  variables: true,
+     * }]
      */
     "no-use-before-define": ["error", {
-      "functions": false,
-      "classes": true,
-      "variables": true,
+      functions: false,
+      classes: true,
+      variables: true,
     }],
   }
 }

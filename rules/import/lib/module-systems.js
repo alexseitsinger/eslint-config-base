@@ -7,6 +7,9 @@ module.exports = {
      * - This gets thrown from our webpack configs, so disable it.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/unambiguous.md
+     *
+     * @example
+     * "off"
      */
     "import/unambiguous": "off",
 
@@ -14,6 +17,12 @@ module.exports = {
      * Report CommonJS require calls and module.exports or exports.*.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
+     *
+     * @example
+     * ["off", {
+     *  allowRequire: true,
+     *  allowPrimitiveModules: true,
+     * }]
      */
     "import/no-commonjs": ["off", {
       allowRequire: true,
@@ -24,6 +33,9 @@ module.exports = {
      * Report AMD require and define calls.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
+     *
+     * #example
+     * "error"
      */
     "import/no-amd": "error",
 
@@ -35,6 +47,11 @@ module.exports = {
      *   continue to use a larger number of builtin modules.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
+     *
+     * @example
+     * ["error", {
+     *  allow: ["fs", "path", "child_process"],
+     * }]
      */
     "import/no-nodejs-modules": ["error", {
       allow: ["fs", "path", "child_process"],

@@ -4,6 +4,13 @@ module.exports = {
      * Ensure imports point to a file/module that can be resolved.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
+     *
+     * @example
+     * ["error", {
+     *  commonjs: true,
+     *  amd: false,
+     *  caseSensitive: true,
+     * }]
      */
     "import/no-unresolved": ["error", {
       commonjs: true,
@@ -16,6 +23,9 @@ module.exports = {
      * Ensure named imports correspond to a named export in the remote file.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md
+     *
+     * @example
+     * "error"
      */
     "import/named": "error",
 
@@ -23,6 +33,9 @@ module.exports = {
      * Ensure a default export is present, given a default import.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md
+     *
+     * @example
+     * "off"
      */
     "import/default": "off",
 
@@ -30,6 +43,11 @@ module.exports = {
      * Ensure imported namespaces contain dereferenced properties as they are dereferenced.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
+     *
+     * @example
+     * ["off", {
+     *  allowComputed: false,
+     * }]
      */
     "import/namespace": ["off", {
       allowComputed: false,
@@ -43,6 +61,11 @@ module.exports = {
      *   add zones to prevent importing server bundles from client.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
+     *
+     * @example
+     * ["off", {
+     *  zones: [],
+     * }]
      */
     "import/no-restricted-paths": ["off", {
       zones: []
@@ -52,6 +75,13 @@ module.exports = {
      * Forbid import of modules using absolute paths.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
+     *
+     * @example
+     * ["error", {
+     *  esmodule: true,
+     *  commonjs: true,
+     *  amd: true,
+     * }]
      */
     "import/no-absolute-path": ["error", {
       esmodule: true,
@@ -66,6 +96,9 @@ module.exports = {
      * - We use dynamic requires for packages, so disable this rule.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
+     *
+     * @example
+     * "off"
      */
     "import/no-dynamic-require": "off",
 
@@ -76,15 +109,23 @@ module.exports = {
      * - We often import components from subdirectories, we disable this rule.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
+     *
+     * @example
+     * ["off", {
+     *  allow: [],
+     * }]
      */
     "import/no-internal-modules": ["off", {
       allow: [],
     }],
-    
+
     /**
      * Forbid webpack loader syntax in imports.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
+     *
+     * @example
+     * "error"
      */
     "import/no-webpack-loader-syntax": "error",
 
@@ -92,6 +133,9 @@ module.exports = {
      * Forbid a module from importing itself.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
+     *
+     * @example
+     * "error"
      */
     "import/no-self-import": "error",
 
@@ -100,6 +144,11 @@ module.exports = {
      * itself.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
+     *
+     * @example
+     * ["error", {
+     *  maxDepth: Infinity,
+     * }]
      */
     "import/no-cycle": ["error", {
       maxDepth: Infinity,
@@ -109,6 +158,11 @@ module.exports = {
      * Prevent unnecessary path segments in import and require statements.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
+     *
+     * @export
+     * ["error", {
+     *  noUselessIndex: true,
+     * }]
      */
     "import/no-useless-path-segments": ["error", {
       noUselessIndex: true,
@@ -118,6 +172,9 @@ module.exports = {
      * Forbid importing modules from parent directories.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
+     *
+     * @example
+     * "off"
      */
     "import/no-relative-parent-imports": "off",
 
@@ -129,6 +186,12 @@ module.exports = {
      * - We have unused exports in webpack configs, we disable this rule.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
+     *
+     * @example
+     * ["off", {
+     *  unusedExports: true,
+     *  missingExports: true,
+     * }]
      */
     "import/no-unused-modules": ["off", {
       unusedExports: true,

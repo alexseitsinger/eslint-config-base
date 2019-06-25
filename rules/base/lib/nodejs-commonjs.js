@@ -8,15 +8,27 @@ module.exports = {
      *   statements. As a result, disable this rule.
      *
      * https://eslint.org/docs/rules/callback-return
+     *
+     * @example
+     * ["off", [
+     *  "callback",
+     *  "cb",
+     *  "errback",
+     *  "eb",
+     *  "next",
+     *  "fn",
+     *  "func",
+     *  "f",
+     * ]]
      */
     "callback-return": ["off", [
-      "callback", 
-      "cb", 
+      "callback",
+      "cb",
       "errback",
       "eb",
-      "next", 
-      "fn", 
-      "func", 
+      "next",
+      "fn",
+      "func",
       "f"
     ]],
 
@@ -28,6 +40,9 @@ module.exports = {
      *   need to disable this rule.
      *
      * https://eslint.org/docs/rules/global-require
+     *
+     * @example
+     * "off"
      */
     "global-require": "off",
 
@@ -35,6 +50,9 @@ module.exports = {
      * Require error handling in callbacks.
      *
      * https://eslint.org/docs/rules/handle-callback-err
+     *
+     * @example
+     * ["error", "err"]
      */
     "handle-callback-err": ["error", "err"],
 
@@ -42,6 +60,9 @@ module.exports = {
      * Disallow use of the Buffer() constructor
      *
      * https://eslint.org/docs/rules/no-buffer-constructor
+     *
+     * @example
+     * "error"
      */
     "no-buffer-constructor": "error",
 
@@ -49,16 +70,25 @@ module.exports = {
      * Disallow require calls to be mixed with regular variable declarations.
      *
      * https://eslint.org/docs/rules/no-mixed-requires
+     *
+     * @example
+     * ["error", {
+     *  grouping: false,
+     *  allowCall: false,
+     * }]
      */
     "no-mixed-requires": ["error", {
-      "grouping": false,
-      "allowCall": false,
+      grouping: false,
+      allowCall: false,
     }],
 
     /**
      * Disallow new operators with calls to require.
      *
      * https://eslint.org/docs/rules/no-new-require
+     *
+     * @example
+     * "error"
      */
     "no-new-require": "error",
 
@@ -66,9 +96,12 @@ module.exports = {
      * Disallow string concatenation with __dirname and __filename.
      *
      * https://eslint.org/docs/rules/no-path-concat
+     *
+     * @example
+     * "error"
      */
     "no-path-concat": "error",
-    
+
     /**
      * Disallow the use of process.env.
      *
@@ -77,13 +110,19 @@ module.exports = {
      *   rule.
      *
      * https://eslint.org/docs/rules/no-process-env
+     *
+     * @example
+     * "off"
      */
-    "no-process-env": "off", 
-    
+    "no-process-env": "off",
+
     /**
      * Disallow the use of process.exit().
      *
      * https://eslint.org/docs/rules/no-process-exit
+     *
+     * @example
+     * "error"
      */
     "no-process-exit": "error",
 
@@ -95,10 +134,16 @@ module.exports = {
      *   enable this rule.
      *
      * https://eslint.org/docs/rules/no-restricted-modules
+     *
+     * @example
+     * ["off", {
+     *  paths: [[,
+     *  patterns: [],
+     * }]
      */
     "no-restricted-modules": ["off", {
-      "paths": [],
-      "patterns": [],
+      paths: [],
+      patterns: [],
     }],
 
     /**
@@ -109,9 +154,14 @@ module.exports = {
      *   this rule.
      *
      * https://eslint.org/docs/rules/no-sync
+     *
+     * @example
+     * ["off", {
+     *  allowAtRootLevel: false
+     * }]
      */
     "no-sync": ["off", {
-      "allowAtRootLevel": false
+      allowAtRootLevel: false
     }],
   }
 }
