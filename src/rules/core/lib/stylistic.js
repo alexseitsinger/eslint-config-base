@@ -1258,7 +1258,7 @@ module.exports = {
      *  },
      * }]
      */
-    "operator-linebreak": ["error", {
+    "operator-linebreak": ["error", "none", {
       overrides: {
         "?": "before",
         ":": "before",
