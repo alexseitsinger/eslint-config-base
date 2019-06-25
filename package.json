@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/alexseitsinger/eslint-config-base/issues"
   },
-  "description": "Custom ESLint config.",
+  "description": "ESLint base config",
   "files": [
     "index.js",
     "rules/",
