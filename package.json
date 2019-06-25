@@ -9,8 +9,7 @@
   },
   "description": "ESLint base config",
   "files": [
-    "index.js",
-    "rules/",
+    "src/",
     "package.json",
     "README.md",
     "LICENSE"
@@ -23,7 +22,7 @@
     "webpack"
   ],
   "license": "BSD-2-Clause",
-  "main": "index.js",
+  "main": "src/index.js",
   "name": "@alexseitsinger/eslint-config-base",
   "peerDependencies": {
     "eslint": "^5.16.0",
