@@ -3406,7 +3406,7 @@ Enforce consistent linebreak style for operators.
 ##### Examples
 
 ```javascript
-["error", {
+["error", "none", {
  overrides: {
    "?": "before",
    ":": "before",
