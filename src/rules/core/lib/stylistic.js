@@ -1251,7 +1251,7 @@ module.exports = {
      * https://eslint.org/docs/rules/operator-linebreak
      *
      * @example
-     * ["error", {
+     * ["error", "none", {
      *  overrides: {
      *    "?": "before",
      *    ":": "before",
