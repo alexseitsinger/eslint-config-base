@@ -1,3 +1,10 @@
+<a name="v0.1.2"></a>
+## [v0.1.2](https://github.com/alexseitsinger/eslint-config-base/compare/v0.1.1...v0.1.2) (2019-06-25)
+
+### Bug Fixes
+- Fixes incorrect import name. ([b83b95f](https://github.com/alexseitsinger/eslint-config-base/commit/b83b95f0f7d46c5ab43f7b6d497aaf7aad88e74e))
+
+
 <a name="v0.1.1"></a>
 ## [v0.1.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.1.0...v0.1.1) (2019-06-25)
 
