@@ -1,9 +1,10 @@
 /**
- * @description The ESLint config object for base, and imports.
- * @return {Object} The ESLint config object to extend from.
- * @example
- * // eslintrc.js
+ * The ESLint config object for base, and imports.
  *
+ * @return {Object}
+ * The ESLint config object to extend from.
+ *
+ * @example
  * module.exports = {
  *   root: true,
  *   extends: [
