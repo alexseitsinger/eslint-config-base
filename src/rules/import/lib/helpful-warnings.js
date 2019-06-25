@@ -1,4 +1,10 @@
+/**
+ * @module import/helpful-warnings
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Report any invalid exports, i.e. re-export of the same name.
@@ -65,9 +71,6 @@ module.exports = {
      */
     "import/no-extraneous-dependencies": ["error", {
       devDependencies: [
-        /**
-         * Jest
-         */
         "tests/**",
         "**/tests/**",
         "__tests__/**",
@@ -76,9 +79,6 @@ module.exports = {
         "**/jest.*.js",
         "jest/*.js",
         "**/jest/*.js",
-        /**
-         * Webpack
-         */
         "webpack.config.js",
         "**/webpack.config.js",
         "webpack-config.*.*.js",

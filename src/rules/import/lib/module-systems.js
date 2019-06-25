@@ -1,4 +1,10 @@
+/**
+ * @module import/module-systems
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Report potentially ambiguous parse goal (script vs. module).

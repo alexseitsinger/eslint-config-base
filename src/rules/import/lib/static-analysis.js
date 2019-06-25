@@ -1,4 +1,10 @@
+/**
+ * @module import/static-analysis
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Ensure imports point to a file/module that can be resolved.

@@ -1,4 +1,10 @@
+/**
+ * @module import/style-guide
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Ensure all imports appear before other statements.
