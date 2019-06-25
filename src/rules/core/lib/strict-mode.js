@@ -1,4 +1,10 @@
+/**
+ * @module core/strict-mode
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Requires or disallows strict mode directives.

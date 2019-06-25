@@ -1,4 +1,10 @@
+/**
+ * @module core/es6
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Require braces around arrow function bodies.

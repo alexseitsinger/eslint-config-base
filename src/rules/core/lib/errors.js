@@ -1,4 +1,10 @@
+/**
+ * @module core/errors
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Enforce “for” loop update clause moving the counter in the right direction.

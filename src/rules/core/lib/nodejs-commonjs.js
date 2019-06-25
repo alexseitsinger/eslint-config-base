@@ -1,4 +1,10 @@
+/**
+ * @module core/nodejs-commonjs
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Require return statements after callbacks.

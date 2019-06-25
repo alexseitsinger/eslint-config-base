@@ -1,4 +1,10 @@
+/**
+ * @module core/stylistic
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Enforce linebreaks after opening and before closing array brackets.
@@ -1156,7 +1162,7 @@ module.exports = {
         multiline: true,
         consistent: true,
       },
-      ImportDeclaration": {
+      ImportDeclaration: {
         multiline: true,
         consistent: true,
       },

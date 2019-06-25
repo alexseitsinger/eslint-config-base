@@ -1,6 +1,8 @@
 /**
  * The ESLint config object for base, and imports.
  *
+ * @module eslint-config-base
+ *
  * @return {Object}
  * The ESLint config object to extend from.
  *
@@ -40,7 +42,7 @@ module.exports = {
     },
   },
   extends: [
-    "./rules/base",
+    "./rules/core",
     "./rules/import",
   ].map(require.resolve)
 }

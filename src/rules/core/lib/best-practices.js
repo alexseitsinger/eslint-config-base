@@ -1,4 +1,10 @@
+/**
+ * @module core/best-practices
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Enforce getter and setter pairs in objects.

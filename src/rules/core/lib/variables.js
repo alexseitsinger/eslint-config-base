@@ -1,6 +1,12 @@
 const confusingBrowserGlobals = require("confusing-browser-globals")
 
+/**
+ * @module core/variables
+ */
 module.exports = {
+  /**
+   * @namespace
+   */
   rules: {
     /**
      * Require or disallow initialization in variable declarations.
