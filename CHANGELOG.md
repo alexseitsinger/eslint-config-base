@@ -1,3 +1,10 @@
+<a name="v0.2.0"></a>
+## [v0.2.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.1.3...v0.2.0) (2019-06-26)
+
+### Features
+- Disables no-unassigned rule. ([145885c](https://github.com/alexseitsinger/eslint-config-base/commit/145885cb81be8d0a254b6dc40fc6c6c7201e4d1e))
+
+
 <a name="v0.1.3"></a>
 ## [v0.1.3](https://github.com/alexseitsinger/eslint-config-base/compare/v0.1.2...v0.1.3) (2019-06-25)
 
