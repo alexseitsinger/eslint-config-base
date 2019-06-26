@@ -1,3 +1,10 @@
+<a name="v0.3.1"></a>
+## [v0.3.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.3.0...v0.3.1) (2019-06-26)
+
+### Bug Fixes
+- Fixes no-unused-modules ignoredExports. ([223fc23](https://github.com/alexseitsinger/eslint-config-base/commit/223fc23e5415391d6d032f1862194b20583ed2bf))
+
+
 <a name="v0.3.0"></a>
 ## [v0.3.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.2.0...v0.3.0) (2019-06-26)
 
