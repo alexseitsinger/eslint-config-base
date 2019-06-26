@@ -1,3 +1,10 @@
+<a name="v0.3.2"></a>
+## [v0.3.2](https://github.com/alexseitsinger/eslint-config-base/compare/v0.3.1...v0.3.2) (2019-06-26)
+
+### Bug Fixes
+- Disables no-unused-modules rule. ([7e93e32](https://github.com/alexseitsinger/eslint-config-base/commit/7e93e326b8c9894efe9452696a2c4ae0c6a40330))
+
+
 <a name="v0.3.1"></a>
 ## [v0.3.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.3.0...v0.3.1) (2019-06-26)
 
