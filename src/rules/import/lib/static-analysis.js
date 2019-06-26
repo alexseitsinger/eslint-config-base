@@ -194,7 +194,7 @@ module.exports = {
      *   list.
      * - missingExports doesnt count module.exports so disable that part of the
      *   rule.
-     * - Each eslint config should define the ignored files.
+     * - Each eslint config should define this rule seperately, with ignored files.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
      *
@@ -205,11 +205,11 @@ module.exports = {
      *  ignoreExports: [],
      * }]
      */
-    "import/no-unused-modules": ["error", {
+    "import/no-unused-modules": ["off", {
       //src: [],
       missingExports: false,
       unusedExports: true,
-      ignoreExports: [],
+      //ignoreExports: [],
     }],
   }
 }
