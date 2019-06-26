@@ -194,87 +194,22 @@ module.exports = {
      *   list.
      * - missingExports doesnt count module.exports so disable that part of the
      *   rule.
+     * - Each eslint config should define the ignored files.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
      *
      * @example
      * ["error", {
      *  unusedExports: true,
-     *  missingExports: true,
-     *  ignoreExports: [
-     *    "index.js",
-     *    "babel.config.js",
-     *    "jest.config.js",
-     *    "jest.setup.js",
-     *    "jest.assetTransformer.js",
-     *    ".eslintrc.js",
-     *    "webpack.config.js",
-     *    "webpack-config.js",
-     *    "webpack-config.client.development.js",
-     *    "webpack-config.client.staging.js",
-     *    "webpack-config.client.production.js",
-     *    "webpack-config.server.development.js",
-     *    "webpack-config.server.staging.js",
-     *    "webpack-config.server.production.js",
-     *    "webpack/options.js",
-     *    "webpack/base.js",
-     *    "webpack/development.base.js",
-     *    "webpack/production.base.js",
-     *    "webpack/staging.base.js",
-     *    "webpack/client/base.js",
-     *    "webpack/client/development.js",
-     *    "webpack/client/staging.js",
-     *    "webpack/client/production.js",
-     *    "webpack/client/shared.base.js",
-     *    "webpack/server/base.js",
-     *    "webpack/server/development.js",
-     *    "webpack/server/staging.js",
-     *    "webpack/server/production.js",
-     *    "webpack/server/shared.base.js",
-     *    "src/index.js",
-     *    "src/server.js",
-     *    "src/client.js",
-     *  ]
+     *  missingExports: false,
+     *  ignoreExports: [],
      * }]
      */
     "import/no-unused-modules": ["error", {
       //src: [],
       missingExports: false,
       unusedExports: true,
-      ignoreExports: [
-        "babel.config.js",
-        ".eslintrc.js",
-        "jest.config.js",
-        "jest.setup.js",
-        "jest.assetTransformer.js",
-        "webpack.config.js",
-        "webpack-config.js",
-        "webpack-config.client.development.js",
-        "webpack-config.client.staging.js",
-        "webpack-config.client.production.js",
-        "webpack-config.server.development.js",
-        "webpack-config.server.staging.js",
-        "webpack-config.server.production.js",
-        "webpack/options.js",
-        "webpack/base.js",
-        "webpack/development.base.js",
-        "webpack/production.base.js",
-        "webpack/staging.base.js",
-        "webpack/client/development.js",
-        "webpack/client/production.js",
-        "webpack/client/staging.js",
-        "webpack/client/shared.base.js",
-        "webpack/client/base.js",
-        "webpack/server/development.js",
-        "webpack/server/production.js",
-        "webpack/server/staging.js",
-        "webpack/server/shared.base.js",
-        "webpack/server/base.js",
-        "index.js",
-        "src/index.js",
-        "src/server.js",
-        "src/client.js",
-      ],
+      ignoreExports: [],
     }],
   }
 }
