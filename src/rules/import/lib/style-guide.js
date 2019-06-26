@@ -159,18 +159,20 @@ module.exports = {
      * NOTES:
      * - We might need to disable this rule completely, if we find that we
      *   continue to use a larger number of unassigned modules.
+     * - Sometimes, we import CSS as modules without assigning them a name. So,
+     *   disable this rule completely.
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
      *
      * @example
-     * ["error", {
+     * ["off", {
      *  allow: [
      *    "core-js/stable",
      *    "url-search-params-polyfill",
      *  ]
      * }]
      */
-    "import/no-unassigned-import": ["error", {
+    "import/no-unassigned-import": ["off", {
       allow: [
         "core-js/stable",
         "url-search-params-polyfill",
