@@ -95,7 +95,7 @@ module.exports = {
      *    ["builtin", "external"],
      *    ["internal", "parent", "sibling", "index"],
      *  ],
-     *  "nexlines-between": "always",
+     *  "newlines-between": "always",
      * }]
      */
     "import/order": ["error", {
