@@ -1,8 +1,7 @@
 {
   "author": {
     "email": "software@alexseitsinger.com",
-    "name": "Alex Seitsinger",
-    "url": "https://www.alexseitsinger.com"
+    "name": "Alex Seitsinger"
   },
   "bugs": {
     "url": "https://github.com/alexseitsinger/eslint-config-base/issues"
@@ -14,7 +13,7 @@
     "README.md",
     "LICENSE"
   ],
-  "homepage": "https://www.alexseitsinger.com/packages/node/eslint-config-base",
+  "homepage": "https://github.com/alexseitsinger/eslint-config-base",
   "keywords": [
     "eslint",
     "eslintconfig",
