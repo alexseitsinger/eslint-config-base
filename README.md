@@ -3406,12 +3406,7 @@ Enforce consistent linebreak style for operators.
 ##### Examples
 
 ```javascript
-["error", "none", {
- overrides: {
-   "?": "before",
-   ":": "before",
- },
-}]
+["error", "before"]
 ```
 
 #### padded-blocks
@@ -4286,7 +4281,7 @@ NOTES:
     list.
 -   missingExports doesnt count module.exports so disable that part of the
     rule.
--   Each eslint config should define the ignored files.
+-   Each eslint config should define this rule seperately, with ignored files.
 
 [https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md][263]
 
