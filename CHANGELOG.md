@@ -1,3 +1,10 @@
+<a name="v0.3.3"></a>
+## [v0.3.3](https://github.com/alexseitsinger/eslint-config-base/compare/v0.3.2...v0.3.3) (2019-09-12)
+
+### Bug Fixes
+- Fixes operator linebreak rule. ([0b7d725](https://github.com/alexseitsinger/eslint-config-base/commit/0b7d725e8b1c073bfe9039eac0c126c152dc944a))
+
+
 <a name="v0.3.2"></a>
 ## [v0.3.2](https://github.com/alexseitsinger/eslint-config-base/compare/v0.3.1...v0.3.2) (2019-06-26)
 
