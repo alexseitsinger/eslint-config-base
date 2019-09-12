@@ -1251,19 +1251,9 @@ module.exports = {
      * https://eslint.org/docs/rules/operator-linebreak
      *
      * @example
-     * ["error", "none", {
-     *  overrides: {
-     *    "?": "before",
-     *    ":": "before",
-     *  },
-     * }]
+     * ["error", "before"]
      */
-    "operator-linebreak": ["error", "none", {
-      overrides: {
-        "?": "before",
-        ":": "before",
-      },
-    }],
+    "operator-linebreak": ["error", "before"],
 
     /**
      * Require or disallow padding within blocks.
