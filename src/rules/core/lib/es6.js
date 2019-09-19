@@ -299,14 +299,14 @@ module.exports = {
     "prefer-destructuring": ["error", {
       VariableDeclarator: {
         array: false,
-        object: false,
+        object: true,
       },
       AssignmentExpression: {
         array: true,
-        object: true,
+        object: false,
       }
     }, {
-      enforceForRenamedProperties: true,
+      enforceForRenamedProperties: false,
     }],
 
     /**
