@@ -1,3 +1,12 @@
+<a name="v0.5.0"></a>
+## [v0.5.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.4.0...v0.5.0) (2019-09-19)
+
+### Code Refactoring
+- Changes multiline-comment-style. ([0ff5909](https://github.com/alexseitsinger/eslint-config-base/commit/0ff590934d35548a13ad09ec9a9a1cc0c8d9a52c))
+- Changes prefer-desctructuring. ([643c968](https://github.com/alexseitsinger/eslint-config-base/commit/643c968f90f6a7c7a6ee832af1e710a1699be527))
+- Increases chain size. ([0478dc7](https://github.com/alexseitsinger/eslint-config-base/commit/0478dc74594c35ba1946bcbdd7c818d96c89a56a))
+
+
 <a name="v0.4.0"></a>
 ## [v0.4.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.3.3...v0.4.0) (2019-09-12)
 
