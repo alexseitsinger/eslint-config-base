@@ -1,3 +1,10 @@
+<a name="v0.7.0"></a>
+## [v0.7.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.6.0...v0.7.0) (2019-09-19)
+
+### Code Refactoring
+- Moves modules. ([8920d8b](https://github.com/alexseitsinger/eslint-config-base/commit/8920d8be06f17c7ad7742129b3e7b65b998f5c0e))
+
+
 <a name="v0.6.0"></a>
 ## [v0.6.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.5.0...v0.6.0) (2019-09-19)
 
