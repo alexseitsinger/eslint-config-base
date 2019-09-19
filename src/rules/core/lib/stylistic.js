@@ -712,9 +712,9 @@ module.exports = {
      * https://eslint.org/docs/rules/multiline-comment-style
      *
      * @example
-     * ["error", "starred-block"]
+     * ["error", "separate-lines"]
      */
-    "multiline-comment-style": ["error", "starred-block"],
+    "multiline-comment-style": ["error", "separate-lines"],
 
     /**
      * Enforce newlines between operands of ternary expressions.
