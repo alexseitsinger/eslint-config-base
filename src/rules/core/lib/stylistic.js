@@ -772,11 +772,11 @@ module.exports = {
      *
      * @example
      * ["error", {
-     *  ignoreChainWithDepth: 2,
+     *  ignoreChainWithDepth: 4,
      * }]
      */
     "newline-per-chained-call": ["error", {
-      ignoreChainWithDepth: 2,
+      ignoreChainWithDepth: 4,
     }],
 
     /**
