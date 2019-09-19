@@ -55,20 +55,6 @@ module.exports = {
      *
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
      *
-     * @example
-     * ["error", {
-     *   devDependencies: [
-     *     "**/tests/**",
-     *     "**/*.test.js",
-     *     "**/jest.*.js",
-     *     "**/webpack.*.js",
-     *     "**/webpack.*.*.js",
-     *     "**/webpack/**",
-     *     "**/webpack/*.js",
-     *     "**/webpack/client/*.js",
-     *     "**/webpack/server/*.js",
-     *    ],
-     * }]
      */
     "import/no-extraneous-dependencies": ["error", {
       devDependencies: [
