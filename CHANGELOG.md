@@ -1,3 +1,10 @@
+<a name="v0.6.0"></a>
+## [v0.6.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.5.0...v0.6.0) (2019-09-19)
+
+### Code Refactoring
+- Updates no-extraneous-dependencies. ([fb2a483](https://github.com/alexseitsinger/eslint-config-base/commit/fb2a483609a7289b89cce94f2dae5fa7c3474dc5))
+
+
 <a name="v0.5.0"></a>
 ## [v0.5.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.4.0...v0.5.0) (2019-09-19)
 
