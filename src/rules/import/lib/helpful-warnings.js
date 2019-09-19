@@ -57,46 +57,30 @@ module.exports = {
      *
      * @example
      * ["error", {
-     *  devDependencies: [
-     *    "tests/**",
-     *    "__tests__/**",
-     *    "jest.*.js",
-     *    "jest/*.js,
-     *    "webpack-config.*.js,
-     *    "webpack.config.*.js,
-     *  ],
-     *  optionalDependencies: false,
-     *  peerDependencies: false,
+     *   devDependencies: [
+     *     "**/tests/**",
+     *     "**/*.test.js",
+     *     "**/jest.*.js",
+     *     "**/webpack.*.js",
+     *     "**/webpack.*.*.js",
+     *     "**/webpack/**",
+     *     "**/webpack/*.js",
+     *     "**/webpack/client/*.js",
+     *     "**/webpack/server/*.js",
+     *    ],
      * }]
      */
     "import/no-extraneous-dependencies": ["error", {
       devDependencies: [
-        "tests/**",
         "**/tests/**",
-        "__tests__/**",
-        "**/__tests__/**",
-        "jest.*.js",
+        "**/*.test.js",
         "**/jest.*.js",
-        "jest/*.js",
-        "**/jest/*.js",
-        "webpack.config.js",
-        "**/webpack.config.js",
-        "webpack-config.*.*.js",
-        "**/webpack-config.*.*.js",
-        "webpack.config.*.js",
-        "**/webpack.config.*.js",
-        "webpack/**",
+        "**/webpack.*.js",
         "**/webpack/**",
-        "webpack/*.js",
         "**/webpack/*.js",
-        "webpack/client/*.js",
         "**/webpack/client/*.js",
-        "webpack/server/*.js",
         "**/webpack/server/*.js",
       ],
-      peerDependencies: false,
-      optionalDependencies: false,
-      //packageDir: ""
     }],
 
     /**
