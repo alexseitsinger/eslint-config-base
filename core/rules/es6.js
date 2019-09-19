@@ -5,6 +5,9 @@ module.exports = {
   /**
    * @namespace
    */
+  env: {
+    es6: true,
+  },
   rules: {
     /**
      * Require braces around arrow function bodies.

@@ -5,6 +5,9 @@ module.exports = {
   /**
    * @namespace
    */
+  env: {
+    node: true,
+  },
   rules: {
     /**
      * Require return statements after callbacks.
