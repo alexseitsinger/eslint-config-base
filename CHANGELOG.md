@@ -1,3 +1,10 @@
+<a name="v0.8.0"></a>
+## [v0.8.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.7.0...v0.8.0) (2019-09-20)
+
+### Code Refactoring
+- Removes extra parserOptions. ([e4cd8a8](https://github.com/alexseitsinger/eslint-config-base/commit/e4cd8a86b374f7ac8c79c9b928435a2ea179045d))
+
+
 <a name="v0.7.0"></a>
 ## [v0.7.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.6.0...v0.7.0) (2019-09-19)
 
