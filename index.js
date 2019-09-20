@@ -22,9 +22,5 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 9,
     sourceType: "module",
-    ecmaFeatures: {
-      generators: false,
-      objectLiteralDuplicateProperties: false,
-    },
   },
 }
