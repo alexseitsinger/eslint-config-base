@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/alexseitsinger/eslint-config-base/issues"
   },
-  "description": "ESLint base config",
+  "description": "Eslint config base (core & import)",
   "files": [
     "core/*",
     "import/*",
@@ -18,9 +18,7 @@
   "homepage": "https://github.com/alexseitsinger/eslint-config-base",
   "keywords": [
     "eslint",
-    "eslintconfig",
-    "react",
-    "webpack"
+    "eslintconfig"
   ],
   "license": "BSD-2-Clause",
   "main": "index.js",
