@@ -1016,9 +1016,9 @@ module.exports = {
      * https://eslint.org/docs/rules/vars-on-top
      *
      * @example
-     * "error"
+     * "off"
      */
-    "vars-on-top": "error",
+    "vars-on-top": "off",
 
     /**
      * Require parentheses around immediate function invocations.
