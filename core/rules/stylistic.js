@@ -1001,9 +1001,6 @@ module.exports = {
      * }]
      */
     "no-restricted-syntax": ["error", {
-      selector: "FunctionExpression",
-      message: "Function expressions are not allowed. Use a function declaration or an arrow function instead."
-    }, {
       selector: "CallExpresion[callee.name='setTimeout'][arguments.length!=2]",
       message: "setTimeout must always be invoked with two arguments."
     }, {
