@@ -933,9 +933,9 @@ module.exports = {
      * https://eslint.org/docs/rules/no-negated-condition
      *
      * @example
-     * "error"
+     * "off"
      */
-    "no-negated-condition": "error",
+    "no-negated-condition": "off",
 
     /**
      * Disallow nested ternary expressions.
