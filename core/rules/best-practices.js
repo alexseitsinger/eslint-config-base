@@ -111,11 +111,11 @@ module.exports = {
      * https://eslint.org/docs/rules/default-case
      *
      * @example
-     * ["error", {
+     * ["off", {
      *  commentPattern: "^no\\sdefault$",
      * }]
      */
-    "default-case": ["error", {
+    "default-case": ["off", {
       commentPattern: "^no\\sdefault$",
     }],
 
