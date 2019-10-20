@@ -1,3 +1,15 @@
+<a name="v0.9.0"></a>
+## [v0.9.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.8.0...v0.9.0) (2019-10-20)
+
+### Code Refactoring
+- Changes lines between members. ([59f9928](https://github.com/alexseitsinger/eslint-config-base/commit/59f992821000b09ba24959d4fd00f1a26deab2b8))
+- Disables no-negated-condition. ([9c8eb21](https://github.com/alexseitsinger/eslint-config-base/commit/9c8eb21fb2d546a80af612bb7d126501cfbf09e5))
+- Removes restriction on func expr. ([f2be95b](https://github.com/alexseitsinger/eslint-config-base/commit/f2be95b1f960844f658fb1fcf8d014e0f3596f6e))
+
+### Features
+- Disables max-lines-per-function. ([f16a7aa](https://github.com/alexseitsinger/eslint-config-base/commit/f16a7aa19fcc0b39d718c601ab45519ee947f718))
+
+
 <a name="v0.8.0"></a>
 ## [v0.8.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.7.0...v0.8.0) (2019-09-20)
 
