@@ -1,3 +1,10 @@
+<a name="v0.11.0"></a>
+## [v0.11.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.10.0...v0.11.0) (2019-10-20)
+
+### Code Refactoring
+- Disables vars on top. ([eff56ee](https://github.com/alexseitsinger/eslint-config-base/commit/eff56ee03edf300dbdefe9b5caf3763e3dbfa2dd))
+
+
 <a name="v0.10.0"></a>
 ## [v0.10.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.9.0...v0.10.0) (2019-10-20)
 
