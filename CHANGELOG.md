@@ -1,3 +1,10 @@
+<a name="v0.10.0"></a>
+## [v0.10.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.9.0...v0.10.0) (2019-10-20)
+
+### Code Refactoring
+- Disables requirement for default. ([e8b83f6](https://github.com/alexseitsinger/eslint-config-base/commit/e8b83f6493ffd675e20489a8efcf6fa8bde7e55f))
+
+
 <a name="v0.9.0"></a>
 ## [v0.9.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.8.0...v0.9.0) (2019-10-20)
 
