@@ -551,11 +551,11 @@ module.exports = {
      * https://eslint.org/docs/rules/lines-between-class-members
      *
      * @example
-     * ["error", "never", {
+     * ["error", "always", {
      *  exceptAfterSingleLine: false,
      * }]
      */
-    "lines-between-class-members": ["error", "never", {
+    "lines-between-class-members": ["error", "always", {
       exceptAfterSingleLine: false,
     }],
 
