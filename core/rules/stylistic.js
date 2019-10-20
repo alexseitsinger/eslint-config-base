@@ -631,14 +631,14 @@ module.exports = {
      * https://eslint.org/docs/rules/max-lines-per-function
      *
      * @example
-     * ["error", {
+     * ["off", {
      *  max: 150,
      *  skipBlankLines: true,
      *  skipComments: true,
      *  IIFEs: true,
      * }]
      */
-    "max-lines-per-function": ["error", {
+    "max-lines-per-function": ["off", {
       max: 150,
       skipBlankLines: true,
       skipComments: true,
