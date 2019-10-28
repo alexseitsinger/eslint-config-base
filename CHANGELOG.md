@@ -1,3 +1,10 @@
+<a name="v0.12.0"></a>
+## [v0.12.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.11.0...v0.12.0) (2019-10-28)
+
+### Features
+- Allows dangling underscore. ([d58908a](https://github.com/alexseitsinger/eslint-config-base/commit/d58908aa1a0a37ca4954b34dd2eb13b7feb3c186))
+
+
 <a name="v0.11.0"></a>
 ## [v0.11.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.10.0...v0.11.0) (2019-10-20)
 
