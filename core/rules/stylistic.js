@@ -1064,14 +1064,14 @@ module.exports = {
      * @example
      * ["error", {
      *  allow: [],
-     *  allowAfterThis: false,
+     *  allowAfterThis: true,
      *  allowAfterSuper: false,
      *  enfoceInMethodNames: true,
      * }]
      */
     "no-underscore-dangle": ["error", {
       allow: [],
-      allowAfterThis: false,
+      allowAfterThis: true,
       allowAfterSuper: false,
       enforceInMethodNames: true,
     }],
