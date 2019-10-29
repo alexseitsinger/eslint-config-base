@@ -333,14 +333,14 @@ module.exports = {
      * @example
      * ["error", {
      *  min: 1,
-     *  max: 48,
+     *  max: 78,
      *  properties: "always",
      *  exceptions: [],
      * }]
      */
     "id-length": ["error", {
       min: 1,
-      max: 48,
+      max: 78,
       properties: "always",
       exceptions: [],
     }],
