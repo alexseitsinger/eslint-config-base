@@ -1,3 +1,10 @@
+<a name="v0.13.0"></a>
+## [v0.13.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.12.0...v0.13.0) (2019-10-29)
+
+### Code Refactoring
+- Changes id-length max. ([cfffdd6](https://github.com/alexseitsinger/eslint-config-base/commit/cfffdd6f779673d50f2abc4c4133f98f34e72a80))
+
+
 <a name="v0.12.0"></a>
 ## [v0.12.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.11.0...v0.12.0) (2019-10-28)
 
