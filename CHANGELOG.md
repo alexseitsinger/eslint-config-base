@@ -1,3 +1,10 @@
+<a name="v0.14.0"></a>
+## [v0.14.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.13.0...v0.14.0) (2019-11-16)
+
+### Code Refactoring
+- Disable underscore dangle for state. ([d8c5cf1](https://github.com/alexseitsinger/eslint-config-base/commit/d8c5cf1131eaf78c16bc32b8354ea97ce40247c6))
+
+
 <a name="v0.13.0"></a>
 ## [v0.13.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.12.0...v0.13.0) (2019-10-29)
 
