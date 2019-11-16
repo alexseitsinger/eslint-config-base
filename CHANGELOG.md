@@ -1,3 +1,10 @@
+<a name="v0.15.0"></a>
+## [v0.15.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.14.0...v0.15.0) (2019-11-16)
+
+### Code Refactoring
+- Updates shadow variables allowed. ([0d1bf85](https://github.com/alexseitsinger/eslint-config-base/commit/0d1bf85747941246eb087fbd7553da3994e309c1))
+
+
 <a name="v0.14.0"></a>
 ## [v0.14.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.13.0...v0.14.0) (2019-11-16)
 
