@@ -92,7 +92,8 @@ module.exports = {
      * @example
      * ["error", {
      *  groups: [
-     *    ["builtin", "external"],
+     *    ["builtin"],
+     *    ["external"],
      *    ["internal", "parent", "sibling", "index"],
      *  ],
      *  "newlines-between": "always",
@@ -100,8 +101,9 @@ module.exports = {
      */
     "import/order": ["error", {
       groups: [
-        ["builtin", "external"],
-        ["internal", "parent", "sibling", "index"]
+        ["builtin"],
+        ["external"],
+        ["internal", "parent", "sibling", "index", "unknown"],
       ],
       "newlines-between": "always",
     }],
