@@ -1,3 +1,10 @@
+<a name="v0.16.0"></a>
+## [v0.16.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.15.0...v0.16.0) (2019-11-16)
+
+### Code Refactoring
+- Changes import/order. ([ef4f2a9](https://github.com/alexseitsinger/eslint-config-base/commit/ef4f2a9050351f2dd51985aa7b35143392966926))
+
+
 <a name="v0.15.0"></a>
 ## [v0.15.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.14.0...v0.15.0) (2019-11-16)
 
