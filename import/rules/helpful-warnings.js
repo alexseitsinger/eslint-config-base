@@ -58,14 +58,13 @@ module.exports = {
      */
     "import/no-extraneous-dependencies": ["error", {
       devDependencies: [
+        ".eslintrc.js",
+        "jest.*.js",
+        "*.test.js",
         "**/tests/**",
-        "**/*.test.js",
-        "**/jest.*.js",
-        "**/webpack.*.js",
+        "webpack.config.js",
+        "webpack.config.*.js",
         "**/webpack/**",
-        "**/webpack/*.js",
-        "**/webpack/client/*.js",
-        "**/webpack/server/*.js",
       ],
     }],
 
