@@ -1063,15 +1063,21 @@ module.exports = {
      *
      * @example
      * ["error", {
-     *  allow: [],
+     *  allow: [
+     *    "__STATE__",
+     *    "__INITIAL_STATE__",
+     *  ],
      *  allowAfterThis: true,
      *  allowAfterSuper: false,
      *  enfoceInMethodNames: true,
      * }]
      */
     "no-underscore-dangle": ["error", {
-      allow: [],
-      allowAfterThis: true,
+      allow: [
+        "__STATE__",
+        "__INITIAL_STATE__",
+      ],
+      allowAfterThis: false,
       allowAfterSuper: false,
       enforceInMethodNames: true,
     }],
