@@ -24,10 +24,8 @@
   "main": "index.js",
   "name": "@alexseitsinger/eslint-config-base",
   "peerDependencies": {
-    "eslint": "^6.3.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-import": "^2.18.2"
-  },
-  "optionalDependencies": {
     "eslint-import-resolver-webpack": "^0.11.1"
   },
   "repository": {
