@@ -1,3 +1,10 @@
+<a name="v0.16.1"></a>
+## [v0.16.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.16.0...v0.16.1) (2019-11-25)
+
+### Code Refactoring
+- Changes extraneous deps. ([14d0646](https://github.com/alexseitsinger/eslint-config-base/commit/14d0646bd8b371d799970209af59ba326e007568))
+
+
 <a name="v0.16.0"></a>
 ## [v0.16.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.15.0...v0.16.0) (2019-11-16)
 
