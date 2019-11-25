@@ -1,19 +1,3 @@
-/**
- * The ESLint config object for base, and imports.
- *
- * @module eslint-config-base
- *
- * @return {Object}
- * The ESLint config object to extend from.
- *
- * @example
- * module.exports = {
- *   root: true,
- *   extends: [
- *     "@alexseitsinger/eslint-config-base",
- *   ],
- * }
- */
 module.exports = {
   extends: [
     "./core",
