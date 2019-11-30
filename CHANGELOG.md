@@ -1,3 +1,10 @@
+<a name="v0.17.0"></a>
+## [v0.17.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.16.1...v0.17.0) (2019-11-30)
+
+### Code Refactoring
+- Allows spaces for asyncArrow. ([7189d6e](https://github.com/alexseitsinger/eslint-config-base/commit/7189d6e6e13f61259557d0e75fb9c5e7e1c77d26))
+
+
 <a name="v0.16.1"></a>
 ## [v0.16.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.16.0...v0.16.1) (2019-11-25)
 
