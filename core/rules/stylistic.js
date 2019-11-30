@@ -1450,7 +1450,11 @@ module.exports = {
      * @example
      * ["error", "never"]
      */
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": ["error", {
+      anonymous: "never",
+      named: "never",
+      asyncArrow: "always",
+    }],
 
     /**
      * Enforce consistent spacing inside parentheses.
