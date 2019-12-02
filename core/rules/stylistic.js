@@ -1,10 +1,4 @@
-/**
- * @module core/stylistic
- */
 module.exports = {
-  /**
-   * @namespace
-   */
   rules: {
     /**
      * Enforce linebreaks after opening and before closing array brackets.
@@ -652,11 +646,11 @@ module.exports = {
      *
      * @example
      * ["error", {
-     *  max: 3,
+     *  max: 6,
      * }]
      */
     "max-nested-callbacks": ["error", {
-      max: 3,
+      max: 6,
     }],
 
     /**
