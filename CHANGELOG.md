@@ -1,3 +1,10 @@
+<a name="v0.18.0"></a>
+## [v0.18.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.17.0...v0.18.0) (2019-12-02)
+
+### Code Refactoring
+- Max nested callbacks to 6. ([015d0e0](https://github.com/alexseitsinger/eslint-config-base/commit/015d0e0a131d0263c7e63513f005b24172338b3e))
+
+
 <a name="v0.17.0"></a>
 ## [v0.17.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.16.1...v0.17.0) (2019-11-30)
 
