@@ -815,9 +815,9 @@ module.exports = {
      * https://eslint.org/docs/rules/no-inline-comments
      *
      * @example
-     * "error"
+     * "off"
      */
-    "no-inline-comments": "error",
+    "no-inline-comments": "off",
 
     /**
      * Disallow if statements as the only statement in else blocks.
