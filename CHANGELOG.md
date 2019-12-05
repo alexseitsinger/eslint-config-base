@@ -1,3 +1,10 @@
+<a name="v0.20.0"></a>
+## [v0.20.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.19.0...v0.20.0) (2019-12-05)
+
+### Code Refactoring
+- Disable no-inline-comments. ([8275eaf](https://github.com/alexseitsinger/eslint-config-base/commit/8275eaf598f20a3f8cf826d643391360431feb38))
+
+
 <a name="v0.19.0"></a>
 ## [v0.19.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.18.0...v0.19.0) (2019-12-05)
 
