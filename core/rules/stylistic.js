@@ -560,11 +560,11 @@ module.exports = {
      *
      * @example
      * ["error", {
-     *  max: 4,
+     *  max: 6,
      * }]
      */
     "max-depth": ["error", {
-      max: 4,
+      max: 6,
     }],
 
     /**
@@ -573,7 +573,7 @@ module.exports = {
      * https://eslint.org/docs/rules/max-len
      *
      * @example
-     * ["error", {
+     * ["off", {
      *  code: 80,
      *  tabWidth: 2,
      *  comments: 80,
@@ -585,7 +585,7 @@ module.exports = {
      *  ignoreRegExpLiterals: true,
      * }]
      */
-    "max-len": ["error", {
+    "max-len": ["off", {
       code: 80,
       tabWidth: 2,
       comments: 80,
