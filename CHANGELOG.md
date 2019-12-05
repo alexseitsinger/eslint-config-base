@@ -1,3 +1,10 @@
+<a name="v0.19.0"></a>
+## [v0.19.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.18.0...v0.19.0) (2019-12-05)
+
+### Code Refactoring
+- Changes max-len & max-depth. ([6add30e](https://github.com/alexseitsinger/eslint-config-base/commit/6add30ee9c6f81ab578668d68169edc78de8d17e))
+
+
 <a name="v0.18.0"></a>
 ## [v0.18.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.17.0...v0.18.0) (2019-12-02)
 
