@@ -1,10 +1,4 @@
-/**
- * @module core/errors
- */
 module.exports = {
-  /**
-   * @namespace
-   */
   rules: {
     /**
      * Enforce “for” loop update clause moving the counter in the right direction.
@@ -249,9 +243,9 @@ module.exports = {
      * https://eslint.org/docs/rules/no-inner-declarations
      *
      * @example
-     * ["error", "both"]
+     * ["error", "functions"]
      */
-    "no-inner-declarations": ["error", "both"],
+    "no-inner-declarations": ["error", "functions"],
 
     /**
      * Disallow invalid regular expression strings in RegExp constructors.
