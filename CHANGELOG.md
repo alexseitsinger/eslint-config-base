@@ -1,3 +1,10 @@
+<a name="v0.21.0"></a>
+## [v0.21.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.20.0...v0.21.0) (2019-12-13)
+
+### Code Refactoring
+- Changes inner-declarations. ([860db24](https://github.com/alexseitsinger/eslint-config-base/commit/860db248745a1dad1163ecefeaa74b20d8233c44))
+
+
 <a name="v0.20.0"></a>
 ## [v0.20.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.19.0...v0.20.0) (2019-12-05)
 
