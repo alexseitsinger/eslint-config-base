@@ -1,3 +1,10 @@
+<a name="v0.22.0"></a>
+## [v0.22.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.21.1...v0.22.0) (2019-12-13)
+
+### Code Refactoring
+- Disables rule. ([0a4ded1](https://github.com/alexseitsinger/eslint-config-base/commit/0a4ded193735d3e55a2e24b4179d6538d4288118))
+
+
 <a name="v0.21.1"></a>
 ## [v0.21.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.21.0...v0.21.1) (2019-12-13)
 
