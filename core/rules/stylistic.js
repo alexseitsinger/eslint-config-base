@@ -1056,17 +1056,17 @@ module.exports = {
      * https://eslint.org/docs/rules/no-underscore-dangle
      *
      * @example
-     * ["error", {
+     * ["off", {
      *  allow: [
      *    "__STATE__",
      *    "__INITIAL_STATE__",
      *  ],
-     *  allowAfterThis: true,
+     *  allowAfterThis: false,
      *  allowAfterSuper: false,
      *  enfoceInMethodNames: true,
      * }]
      */
-    "no-underscore-dangle": ["error", {
+    "no-underscore-dangle": ["off", {
       allow: [
         "__STATE__",
         "__INITIAL_STATE__",
