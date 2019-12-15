@@ -2191,7 +2191,7 @@ module.exports = {
      * https://eslint.org/docs/rules/arrow-parens
      */
     "arrow-parens": ["error", "as-needed", {
-      requireforblockbody: false,
+      requireForBlockBody: false,
     }],
 
     /**
@@ -2240,7 +2240,7 @@ module.exports = {
      * https://eslint.org/docs/rules/no-confusing-arrow
      */
     "no-confusing-arrow": ["error", {
-      "allowparens": true,
+      allowParens: true,
     }],
 
     /**
@@ -2263,7 +2263,7 @@ module.exports = {
      * https://eslint.org/docs/rules/no-duplicate-imports
      */
     "no-duplicate-imports": ["error", {
-      includeexports: false,
+      includeExports: false,
     }],
 
     /**
@@ -2315,9 +2315,9 @@ module.exports = {
      * https://eslint.org/docs/rules/no-useless-rename
      */
     "no-useless-rename": ["error", {
-      ignoreimport: false,
-      ignoreexport: false,
-      ignoredestructuring: false,
+      ignoreImport: false,
+      ignoreExport: false,
+      ignoreDestructuring: false,
     }],
 
     /**
@@ -2343,8 +2343,8 @@ module.exports = {
      * https://eslint.org/docs/rules/prefer-arrow-callback
      */
     "prefer-arrow-callback": ["error", {
-      allownamedfunctions: false,
-      allowunboundthis: false,
+      allowNamedFunctions: false,
+      allowUnboundThis: false,
     }],
 
     /**
@@ -2357,7 +2357,7 @@ module.exports = {
      */
     "prefer-const": ["error", {
       destructuring: "any",
-      ignorereadbeforeassign: true,
+      ignoreReadBeforeAssign: true,
     }],
 
     /**
@@ -2366,16 +2366,16 @@ module.exports = {
      * https://eslint.org/docs/rules/prefer-destructuring
      */
     "prefer-destructuring": ["error", {
-      variabledeclarator: {
+      VariableDeclarator: {
         array: false,
         object: true,
       },
-      assignmentexpression: {
+      AssignmentExpression: {
         array: true,
         object: false,
       }
     }, {
-      enforceforrenamedproperties: false,
+      enforceForRenamedProperties: false,
     }],
 
     /**
@@ -2435,10 +2435,10 @@ module.exports = {
      * https://eslint.org/docs/rules/sort-imports
      */
     "sort-imports": ["off", {
-      ignorecase: false,
-      ignoredeclarationsort: true,
-      ignoremembersort: true,
-      membersyntaxsortorder: ["none", "all", "multiple", "single"]
+      ignoreCase: false,
+      ignoreDeclarationSort: true,
+      ignoreMemberSort: true,
+      memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
     }],
 
     /**
