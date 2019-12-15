@@ -1,3 +1,10 @@
+<a name="v0.23.0"></a>
+## [v0.23.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.22.0...v0.23.0) (2019-12-15)
+
+### Code Refactoring
+- Disable arrow body style. ([5683163](https://github.com/alexseitsinger/eslint-config-base/commit/568316350086ab28d11cc889db6f480148bbee41))
+
+
 <a name="v0.22.0"></a>
 ## [v0.22.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.21.1...v0.22.0) (2019-12-13)
 
