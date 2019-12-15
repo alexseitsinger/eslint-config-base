@@ -17,9 +17,9 @@ module.exports = {
      * https://eslint.org/docs/rules/arrow-body-style
      *
      * @example
-     * ["off", "as-needed"]
+     * ["error", "as-needed"]
      */
-    "arrow-body-style": ["off", "as-needed"],
+    "arrow-body-style": ["error", "as-needed"],
 
     /**
      * Require parentheses around arrow function arguments.
