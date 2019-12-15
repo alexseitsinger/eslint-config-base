@@ -1,3 +1,10 @@
+<a name="v0.25.0"></a>
+## [v0.25.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.24.0...v0.25.0) (2019-12-15)
+
+### Code Refactoring
+- Condenses into single files. ([749ca9d](https://github.com/alexseitsinger/eslint-config-base/commit/749ca9d33fc286b5844a6a0a3e18caed123848cc))
+
+
 <a name="v0.24.0"></a>
 ## [v0.24.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.23.0...v0.24.0) (2019-12-15)
 
