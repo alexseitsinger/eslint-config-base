@@ -1,3 +1,10 @@
+<a name="v0.25.1"></a>
+## [v0.25.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.25.0...v0.25.1) (2019-12-15)
+
+### Bug Fixes
+- Fixes lowercased rules. ([e3b45af](https://github.com/alexseitsinger/eslint-config-base/commit/e3b45af1e89feecb80082ae17bcf0fd347f6a680))
+
+
 <a name="v0.25.0"></a>
 ## [v0.25.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.24.0...v0.25.0) (2019-12-15)
 
