@@ -447,10 +447,12 @@ module.exports = {
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
      */
     "import/no-unused-modules": ["error", {
-      unusedExports: true,
+      unusedExports: false,
       missingExports: true,
       //src: [],
-      //ignoreExports: [],
+      ignoreExports: [
+        "babel.config.js",
+      ],
     }],
 
   },
