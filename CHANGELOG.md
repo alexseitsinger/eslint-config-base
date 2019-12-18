@@ -1,3 +1,11 @@
+<a name="v0.27.0"></a>
+## [v0.27.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.26.0...v0.27.0) (2019-12-18)
+
+### Code Refactoring
+- Adds ignored files. ([5d2f5e0](https://github.com/alexseitsinger/eslint-config-base/commit/5d2f5e01ea403a1dc914f91bfb5a24b438ddee20))
+- Updates ignored. ([758985e](https://github.com/alexseitsinger/eslint-config-base/commit/758985eb468bec4fc28b4b2159a27be525e318a0))
+
+
 <a name="v0.26.0"></a>
 ## [v0.26.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.25.1...v0.26.0) (2019-12-18)
 
