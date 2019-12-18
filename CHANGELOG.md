@@ -1,3 +1,12 @@
+<a name="v0.26.0"></a>
+## [v0.26.0](https://github.com/alexseitsinger/eslint-config-base/compare/v0.25.1...v0.26.0) (2019-12-18)
+
+### Code Refactoring
+- Changes to warn. ([9324597](https://github.com/alexseitsinger/eslint-config-base/commit/9324597d1ff4a6b7c75aea723c2f53b043116c9a))
+- Disable unusedExports error. ([4c3039b](https://github.com/alexseitsinger/eslint-config-base/commit/4c3039b7112142c2849e558c0b1f1050f534fe08))
+- Updates rules. ([c082da7](https://github.com/alexseitsinger/eslint-config-base/commit/c082da76ac690b5d16b14c41e449c5b5b0995d37))
+
+
 <a name="v0.25.1"></a>
 ## [v0.25.1](https://github.com/alexseitsinger/eslint-config-base/compare/v0.25.0...v0.25.1) (2019-12-15)
 
