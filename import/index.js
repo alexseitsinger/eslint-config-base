@@ -454,6 +454,9 @@ module.exports = {
       missingExports: true,
       //src: [],
       ignoreExports: [
+        "jest.*.js",
+        "webpack.*.js",
+        "**/webpack/**",
         "babel.config.js",
       ],
     }],
