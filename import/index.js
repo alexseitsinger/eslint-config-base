@@ -454,9 +454,10 @@ module.exports = {
       missingExports: true,
       //src: [],
       ignoreExports: [
-        "jest.*.js",
-        "webpack.*.js",
-        "**/webpack/**",
+        "webpack.config.js",
+        "jest.config.js",
+        "jest.setup.js",
+        "jest.assetTransformer.js",
         "babel.config.js",
       ],
     }],
