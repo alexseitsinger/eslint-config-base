@@ -102,7 +102,7 @@ module.exports = {
      *
      * https://eslint.org/docs/rules/comma-dangle
      */
-    "comma-dangle": ["error", {
+    "comma-dangle": ["warn", {
       arrays: "always-multiline",
       objects: "always-multiline",
       imports: "always-multiline",
@@ -117,7 +117,7 @@ module.exports = {
      *
      * https://eslint.org/docs/rules/comma-spacing
      */
-    "comma-spacing": ["error", {
+    "comma-spacing": ["warn", {
       before: false,
       after: true,
     }],
@@ -129,7 +129,7 @@ module.exports = {
      *
      * https://eslint.org/docs/rules/comma-style
      */
-    "comma-style": ["error", "last", {
+    "comma-style": ["warn", "last", {
       exceptions: {
         ArrayExpression: false,
         ArrayPattern: false,
@@ -2579,7 +2579,7 @@ module.exports = {
      *
      * https://eslint.org/docs/rules/no-unused-vars
      */
-    "no-unused-vars": ["error", {
+    "no-unused-vars": ["warn", {
       vars: "all",
       //varsIgnorePattern: "[iI]gnore",
       args: "after-used",
