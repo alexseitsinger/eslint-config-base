@@ -450,8 +450,8 @@ module.exports = {
      * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
      */
     "import/no-unused-modules": ["warn", {
-      unusedExports: false,
-      missingExports: true,
+      unusedExports: true,
+      missingExports: false,
       //src: [],
       ignoreExports: [
         "webpack.config.js",
